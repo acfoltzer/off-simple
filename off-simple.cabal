@@ -6,6 +6,8 @@ Description:         A simple datatype and parser for 3D OFF files,
                      <http://people.sc.fsu.edu/~jburkardt/data/off/off.html>, 
                      but uses the file header to determine whether the object's
                      faces contain color values. 
+Homepage:            https://github.com/acfoltzer/off-simple
+Bug-reports:         https://github.com/acfoltzer/off-simple/issues
 License:             BSD3
 License-file:        LICENSE
 Author:              Adam C. Foltzer
@@ -23,6 +25,10 @@ Extra-source-files:  tests/Main.hs
                      tests/samples/mushroom.off
                      tests/samples/tetra.off
                      tests/samples/tetra.offc
+
+source-repository head
+  type:     git
+  location: git://github.com/acfoltzer/off-simple.git
 
 Library
   exposed-modules:   Graphics.Formats.OFF.Simple
