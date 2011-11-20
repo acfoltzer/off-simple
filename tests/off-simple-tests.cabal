@@ -1,0 +1,21 @@
+Name:                off-simple-tests
+Version:             0.1
+Synopsis:            Test suite for off-simple
+License:             BSD3
+License-file:        LICENSE
+Author:              Adam C. Foltzer
+Maintainer:          acfoltzer@gmail.com
+Category:            Testing
+Build-type:          Simple
+Cabal-version:       >=1.8
+
+Executable off-simple-tests
+  main-is:           Main.hs
+  build-depends:     base == 4.*,
+                     filepath == 1.2.*,
+                     HUnit == 1.2.*,
+                     test-framework == 0.4.*,
+                     test-framework-hunit == 0.2.*,
+                     vector == 0.9.*,
+                     off-simple
+  other-modules:     TestData
